@@ -15,6 +15,12 @@ dataset = pd.read_csv('Position_Salaries.csv')
 X = dataset.iloc[:,1:2].values
 Y = dataset.iloc[:,2].values
 
+## Feature Scaling
+#from sklearn.preprocessing import StandardScaler
+#sc_X = StandardScaler()
+#X_train = sc_X.fit_transform(X_train)
+#X_test = sc_X.transform(X_test)
+
 # Fitting Regression Model to the dataset
 # Create regressor
 
