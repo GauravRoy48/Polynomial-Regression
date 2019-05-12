@@ -20,6 +20,9 @@ Y = dataset.iloc[:,2].values
 #sc_X = StandardScaler()
 #X_train = sc_X.fit_transform(X_train)
 #X_test = sc_X.transform(X_test)
+#
+#sc_Y = StandardScaler()
+#Y_train = sc_Y.fit_transform(Y_train)
 
 # Fitting Regression Model to the dataset
 # Create regressor
