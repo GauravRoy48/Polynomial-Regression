@@ -1,8 +1,8 @@
 ##################################################################################
 # Creator     : Gaurav Roy
 # Date        : 12 May 2019
-# Description : The code contains the approach for Polynomial Linear Regression on 
-#               the Position_Salaries.csv.
+# Description : The code contains the template for all non-SLR and non-MLR  
+#               Regression on the Position_Salaries.csv.
 ##################################################################################
 
 # Importing Libraries
