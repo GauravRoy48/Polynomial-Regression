@@ -13,7 +13,7 @@ import pandas as pd
 # Import Dataset
 dataset = pd.read_csv('Position_Salaries.csv')
 X = dataset.iloc[:,1:2].values
-Y = dataset.iloc[:,2].values
+Y = dataset.iloc[:,2:3].values
 
 ## Feature Scaling
 #from sklearn.preprocessing import StandardScaler
