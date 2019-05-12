@@ -28,7 +28,7 @@ Y = dataset.iloc[:,2:3].values
 # Create regressor
 
 # Predicting a new result with Regression
-Y_pred =regressor.predict([[6.5]])
+Y_pred =regressor.predict(np.array([[6.5]]))
 
 # Visualizing Regression results
 plt.scatter(X, Y, color='red')
